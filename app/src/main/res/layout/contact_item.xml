@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_human"
+            android:layout_marginRight="8dp" />
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="홍길동"
+            android:layout_toEndOf="@id/image_view"
+            android:textColor="@color/midnight_blue"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/image_view" />
+        <TextView
+            android:id="@+id/textPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textName"
+            android:layout_toEndOf="@+id/image_view"
+            android:layout_marginTop="5dp"
+            android:text="010-1234-5678"
+            android:layout_toRightOf="@+id/image_view" />
+        <ImageButton
+            android:id="@+id/btnPhone"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/phone_call_btn"
+            android:src="@drawable/ic_call" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

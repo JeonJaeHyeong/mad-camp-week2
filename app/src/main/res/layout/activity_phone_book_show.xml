@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.myapplication.firstTab.PhoneBookShowActivity">
+
+    <ImageView
+        android:id="@+id/phone_show_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_human" />
+
+    <TextView
+        android:id="@+id/phone_show_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="김뫄뫄"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/midnight_blue" />
+
+    <TextView
+        android:id="@+id/phone_show_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="010-0000-0000"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/wet_asphalt" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/phone_show_phone_btn"
+            android:layout_width="55dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/ic_call" />
+
+        <ImageButton
+            android:id="@+id/phone_show_upload"
+            android:layout_width="55dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/ic_upload" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    기본    -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--    직접 추가    -->
+    <color name="clouds">#ECEFF0</color>
+    <color name="silver">#BCC3C7</color>
+    <color name="concrete">#95A5A6</color>
+    <color name="asbestos">#7F8C8D</color>
+    <color name="wet_asphalt">#33495F</color>
+    <color name="midnight_blue">#2B3E51</color>
+
+    <color name="sun_flower">#F1C400</color>
+    <color name="orange">#F59D00</color>
+    <color name="carrot">#E87E04</color>
+    <color name="pumpkin">#D55400</color>
+    <color name="alizarin">#E94B35</color>
+    <color name="pomegranate">#C23824</color>
+
+    <color name="sky_blue">#92CDED</color>
+    <color name="bright_blue">#2AE6FF</color>
+    <color name="turquoise">#00BC9C</color>
+    <color name="green_sea">#00A084</color>
+    <color name="emerald">#1FCD6D</color>
+    <color name="nephritis">#1AAE5D</color>
+    <color name="peter_river">#2C97DD</color>
+    <color name="belize_hole">#227EBB</color>
+    <color name="amethyst">#9B56B8</color>
+    <color name="wisteria">#8F3EAE</color>
+
+</resources>
